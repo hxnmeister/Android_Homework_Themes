@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Android_Homework_Themes" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Android_Homework_Themes" parent="Base.Theme.Android_Homework_Themes" />
+
+    <style name="Theme.Light" parent="Theme.Material3.Light">
+        <item name="colorPrimary">@color/light_primary</item>
+        <item name="colorOnPrimary">@color/black</item>
+    </style>
+
+    <style name="Theme.Dark" parent="Theme.Material3.Dark">
+        <item name="colorPrimary">@color/light_primary</item>
+        <item name="radioButtonStyle">@style/CustomRadioButtonText</item>
+    </style>
+
+    <style name="Theme.Olive" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/olive_primary</item>
+        <item name="titleTextColor">@color/olive_text</item>
+    </style>
+
+    <style name="CustomRadioButtonText" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>
